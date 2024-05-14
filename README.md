@@ -3,15 +3,13 @@
 This is a Streamlit-based web application that allows users to upload multiple PDF documents, extract text, and then query this information through a conversational interface powered by Google Generative AI.
 The Users can ask any questions related to the documents uploaded.
 
-# This is how initially it looks like
+# This is how it looks like initially
 ![WhatsApp Image 2024-05-14 at 16 39 16_d3151854](https://github.com/Sudhanshu480/Chat_with_PDF/assets/96736479/ee580b5b-8b52-48d5-bb45-be7c285e2e7d)
 
-# After uploading the files and asking questions:
+# After uploading the files and asking questions here is how it responds:
 ![WhatsApp Image 2024-05-14 at 16 54 29_79789b80](https://github.com/Sudhanshu480/Chat_with_PDF/assets/96736479/414a4ac3-8099-4e4b-bca0-83041cefcb46)
 ![WhatsApp Image 2024-05-14 at 16 55 38_c9335e52](https://github.com/Sudhanshu480/Chat_with_PDF/assets/96736479/e921da82-4283-4b8c-ab0b-22c70ebd6ed9)
 
-
-![Demo](demo.gif)
 
 To build this application we follow certain steps which are:
 1. The first step is to extract text content from all uploaded PDF files and concatenate it into a single variable. This involves using the `PyPDF2` library to read each PDF file, extract text from its pages, and aggregate this text into a comprehensive string.
@@ -67,6 +65,7 @@ Before running the application, we must ensure we have set up the required envir
 
 - `GOOGLE_API_KEY`: API key for Google Generative AI. This should be stored in a `.env` file in the root directory of the project.
 
+
 ## Dependencies
 
 - `streamlit`: For building the interactive web interface.
@@ -77,9 +76,11 @@ Before running the application, we must ensure we have set up the required envir
 - `google-generativeai`: It provides access to Google's Generative AI models and tools for natural language understanding and generation tasks.
 - `langchain_google_genai`: A component within the langchain framework that integrates with Google's Generative AI tools and models.
 
+
 ## Contributing
 
 Contributions are welcome! Please feel free to fork this repository and submit pull requests to propose changes or improvements.
+
 
 
 ## Alternatives
