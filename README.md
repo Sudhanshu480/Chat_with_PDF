@@ -3,6 +3,14 @@
 This is a Streamlit-based web application that allows users to upload multiple PDF documents, extract text, and then query this information through a conversational interface powered by Google Generative AI.
 The Users can ask any questions related to the documents uploaded.
 
+# This is how initially it looks like
+![WhatsApp Image 2024-05-14 at 16 39 16_d3151854](https://github.com/Sudhanshu480/Chat_with_PDF/assets/96736479/ee580b5b-8b52-48d5-bb45-be7c285e2e7d)
+
+# After uploading the files and asking questions:
+![WhatsApp Image 2024-05-14 at 16 54 29_79789b80](https://github.com/Sudhanshu480/Chat_with_PDF/assets/96736479/414a4ac3-8099-4e4b-bca0-83041cefcb46)
+![WhatsApp Image 2024-05-14 at 16 55 38_c9335e52](https://github.com/Sudhanshu480/Chat_with_PDF/assets/96736479/e921da82-4283-4b8c-ab0b-22c70ebd6ed9)
+
+
 ![Demo](demo.gif)
 
 To build this application we follow certain steps which are:
